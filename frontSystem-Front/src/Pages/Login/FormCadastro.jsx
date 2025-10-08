@@ -75,7 +75,7 @@ function FormCadastro() {
       );
 
       if (usuarioReferenciador) {
-        addPoint(usuarioReferenciador.id, usuarioReferenciador.pontos + 10);
+        addPoint(usuarioReferenciador.id, usuarioReferenciador.pontos + 1);
       }
     }
 
