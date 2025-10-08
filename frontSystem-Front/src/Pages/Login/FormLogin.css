@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#conteinerLg{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: 
+    radial-gradient(at 40% 20%, hsla(0, 0%, 36%, 0.3) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(231, 91%, 58%, 0.4) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(0, 0%, 0%, 0.3) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(0, 0%, 0%, 0.3) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(231, 91%, 58%, 0.42) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(0, 0%, 1%, 0.3) 0px, transparent 50%),
+    #cccecf;
+  
+  padding-inline: 26px
+}
+#baseFormLg{
+  width: 430px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+#formLg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 30px;
+  
+  
+ 
+}
+input{
+  height: 5vh;
+  border-radius: 10px;
+  padding-inline: 16px ;
+  
+  
+  
+}
+#textContainerLg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#btnSingUpLg{
+  background-color: blue;
+  height: 5vh;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
